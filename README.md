@@ -18,7 +18,7 @@ Instructions to this assignment can be found [here](https://reedws.github.io/IT3
   - presenting content using different HTML tags. i.e. `<ol>`, `<ul>`, `<p>`, `<img>`
   - assigning classes and IDs properly.
   - Styling the page using classes and IDs in the css file.
-- [ ] The Web page is hosted on GitHub Pages. (5 Points)
+- [x] The Web page is hosted on GitHub Pages. (5 Points)
 - [x] Proper usage of git and GitHub and making frequent commits (5 points).
 
 <!--- Update the following line with your grade --->
