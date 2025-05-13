@@ -7,7 +7,7 @@ Instructions to this assignment can be found [here](https://reedws.github.io/IT3
 ## Checklist:
 - [x] update the assignment checks above to the correct link. - Done Automatically
 - [x] fill out the self evaluation and Reflection
-- [ ] submit the repository and the hosted github pages to Canvas
+- [x] submit the repository and the hosted github pages to Canvas
 
 ## Self Grading Guide
 <!--- put an x in each of the completed sections below .. e.g. [x] Task 1 --->
