@@ -17,30 +17,32 @@
 <body>
   <div class="container"> <!-- git commit -m "initialized the page" -->
 
-    <!-- About Me Section with image on left and text centered on the right -->
-    <div class="d-flex align-items-center mb-4 flex-wrap" style="gap: 2rem;">
-      <!-- Image & Name -->
-      <div class="text-center">
-        <h1 class="mb-3">Nirupama Poojari</h1>
-        <img src="resources/images/myphoto.jpg" alt="Photo of Nirupama Poojari" class="img-fluid rounded"
-          style="width: 300px; height: auto;" />
-      </div>
+    <!-- About Me Section: Image on left, text vertically centered on right -->
+    <div class="container mb-4">
+      <div class="row no-gutters align-items-center">
 
-      <!-- About Me Text -->
-      <div class="flex-grow-1" id="personalBackground">
-        <h2>About Me</h2>
-        <p>
-          I'm a senior at University of Cincinnati, majoring in Information Technology with a track in software
-          application development. I live in Xenia, OH. I'm a passionate web developer with a keen interest in front-end
-          technologies.
-          I enjoy designing clean, responsive user interfaces and bringing them to life through code.
-        </p>
+        <!-- Left: Image & Name -->
+        <div class="col-md-4 text-center">
+          <h1 class="mb-3">Nirupama Poojari</h1>
+          <img src="resources/images/myphoto.jpg" alt="Photo of Nirupama Poojari" class="img-fluid rounded"
+            style="max-width: 100%; height: auto;" />
+        </div>
+
+        <!-- Right: About Me Text -->
+        <div class="col-md-8 d-flex align-items-center" style="min-height: 100%;">
+          <div>
+            <h2>About Me</h2>
+            <p>
+              I'm a senior at University of Cincinnati, majoring in Information Technology with a track in software
+              application development. I live in Xenia, OH. I'm a passionate web developer with a keen interest in
+              front-end technologies.
+              I enjoy designing clean, responsive user interfaces and bringing them to life through code.
+            </p>
+          </div>
+        </div>
+
       </div>
     </div>
-
-
-
-
 
     <!-- Work and Favorite Games Section in one row -->
     <div class="row">
