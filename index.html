@@ -17,15 +17,17 @@
 <body>
   <div class="container"> <!-- git commit -m "initialized the page" -->
 
-    <!-- About Me Section with image on left and text on right -->
-    <!-- About Me Section with image on left and text on right -->
-    <div class="row align-items-start mb-4">
-      <div class="col-md-4 d-flex flex-column align-items-start">
+    <!-- About Me Section with image on left and text centered on the right -->
+    <div class="d-flex align-items-center mb-4" style="gap: 2rem;">
+      <!-- Image & Name Column -->
+      <div>
         <h1 class="mb-3">Nirupama Poojari</h1>
         <img src="resources/images/myphoto.jpg" alt="Photo of Nirupama Poojari" class="img-fluid rounded"
-          style="width: 100%; max-width: 300px; height: 400px; object-fit: cover;" />
+          style="width: 300px; height: 400px; object-fit: cover;" />
       </div>
-      <div class="col-md-8 section" id="personalBackground">
+
+      <!-- About Me Text Section -->
+      <div class="flex-grow-1" id="personalBackground">
         <h2>About Me</h2>
         <p>
           I'm a senior at University of Cincinnati, majoring in Information Technology with a track in software
@@ -35,6 +37,7 @@
         </p>
       </div>
     </div>
+
 
 
 
